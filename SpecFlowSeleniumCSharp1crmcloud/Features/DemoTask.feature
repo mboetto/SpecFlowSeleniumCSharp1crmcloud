@@ -1,6 +1,5 @@
 ﻿Feature: DemoTask
 
-@mytag
 Scenario: Create Contact
 	Given I navigate to crmcloud
 	Then I login as admin
