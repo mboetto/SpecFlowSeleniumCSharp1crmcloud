@@ -183,7 +183,7 @@ namespace SpecFlowSeleniumCSharp1crmcloud.StepDefinitions
         }
 
         [Then(@"I wait (.*) seconds")]
-        public void GivenIWaitSeconds(int seconds)
+        public void ThenIWaitSeconds(int seconds)
         {
             Thread.Sleep(seconds * 1000);
             return;

@@ -22,8 +22,6 @@ namespace SpecFlowSeleniumCSharp1crmcloud.Drivers
         public IWebDriver Setup()
         {
 
-            //var chromeOptions = new ChromeOptions();
-
             new DriverManager().SetUpDriver(new ChromeConfig());
 
             ChromeOptions options = new ChromeOptions();

@@ -13,7 +13,7 @@ namespace SpecFlowSeleniumCSharp1crmcloud.Hooks
         public HookInitialization(ScenarioContext scenarioContext) => _scenarioContext = scenarioContext;
 
         [BeforeScenario]
-        public void BeforeScenarioWithTag()
+        public void BeforeScenario()
         {
             SeleniumDriver seleniumDriver = new SeleniumDriver(_scenarioContext);
             _scenarioContext.Set(seleniumDriver, "SeleniumDriver");
